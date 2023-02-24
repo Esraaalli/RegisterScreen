@@ -137,7 +137,6 @@ class _LoginState extends State<Login> {
                     ),
                     const SizedBox(height: 10),
                     TextField(
-                      controller: passwordController,
                       keyboardType: TextInputType.visiblePassword,
                       obscureText: _confirmisObscure,
                       decoration: InputDecoration(
